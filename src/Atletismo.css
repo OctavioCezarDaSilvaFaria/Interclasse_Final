@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Khand:wght@300;400;500;600;700&display=swap');
+
+.Sportcontainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.ban {
+  width: 100%;
+}
+
+
+
+#caixa_texto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+#bnd {
+  height: 40px;
+  position: relative;
+  transform: translateX(-16.5%);
+}
+
+#bnd1 {
+  height: 40px;
+  position: relative;
+  transform: translateX(-7%);
+}
+
+#bnd2 {
+  height: 40px;
+  position: relative;
+  transform: translateX(-25%);
+}
+
+#bnd3 {
+  height: 40px;
+  position: relative;
+  transform: translateX(-13.5%);
+}
+
+#bandu {
+  height: 40px;
+  width: 40px;
+  overflow: hidden;
+  border-radius: 50px;
+  border: 2px solid black;
+}
+
+#nomes {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-family: "Khand", sans-serif;
+  font-size: 25px;
+  gap: 10px;
+  width: 80%;
+}
+
+#texto {
+  font-size: 33px;
+  font-family: "Khand", sans-serif;
+  text-align: start;
+  width: 80%;
+}
+
+#escritas {
+  font-size: 33px;
+  font-family: "Khand", sans-serif;
+  text-align: start;
+  margin-top: 150px;
+  width: 80%;
+}
+
+#container {
+  background-color: black;
+  height: 400px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+#grupos {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+}
+
+#grupo1 {
+  background-color: #E7E7E7;
+  width: 65%;
+  height: 350px;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  overflow: hidden;
+  align-items: center;
+}
+
+#subTitle {
+  font-size: 2px;
+  font-family: "Khand", sans-serif;
+  text-align: center;
+  flex-direction: row;
+  width: 105%;
+  background-color: white;
+  margin-top: -20px;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 12px;
+}
+
+#gp1 {
+  width: 300px;
+  text-align: start;
+}
+
+#gp2 {
+  text-align: center;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-around;
+  font-weight: bold;
+  font-family: "Khand", sans-serif;
+  font-size: 25px;
+  width: 900px;
+  gap: 35px;
+}
+
+.todos {
+  width: 100%;
+  margin-bottom: -161px;
+  
+}
+.todos2 {
+  width: 100%;
+  margin-bottom: -161px;
+  background-color: black;
+}
+
+#m-m {
+  font-size: 33px;
+  font-family: "Khand", sans-serif;
+  text-align: center;
+  margin-top: 150px;
+  width: 80%;
+}
+
+#h2 {
+  font-size: 100px;
+  font-family: "Khand", sans-serif;
+}
+
+@media (max-width:450px){
+  #escritas {
+    font-size: 20px;
+    font-family: "Khand", sans-serif;
+    text-align: start;
+    margin-bottom: 40px;
+    width: 80%;
+  }
+  #texto {
+    font-size: 20px;
+    font-family: "Khand", sans-serif;
+    text-align: start;
+    width: 80%;
+  }
+  #grupos {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+  }
+
+  #grupo1 {
+    background-color: #E7E7E7;
+    width: 75%;
+    height: auto;
+}
+
+#subTitle {
+  font-size: 1px;
+  flex-direction: row;
+  width: 110%;
+  background-color: white;
+}
+
+#gp2 {
+  font-size: 15.5px;
+  width: 100%;
+  gap: 2px;
+  align-items: center;
+}
+#gp1 {
+  width: 200px;
+  font-size: 20px;
+  text-align: start;
+}
+
+.todos {
+  width: 100%;
+  margin-bottom: -50px; 
+}
+
+.todos2 {
+  width: 100%;
+  margin-bottom: -35px;
+  background-color: black;
+  margin-top: -1px;
+}
+
+#m-m {
+  font-size: 29px;
+}
+
+#h2 {
+  font-size: 60px;
+}
+}

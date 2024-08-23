@@ -1,0 +1,31 @@
+#filet {
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    height: 50px;
+    margin: 0;
+    text-align: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+  }
+
+  @media (max-width:450px) {
+    #filet {
+      
+      flex :1;
+      width: 100%;
+      gap:14px;
+      background-color: rgb(0, 0, 0);
+      height: auto;
+      margin-top: 0.1px;
+      text-align: center;
+      justify-content: space-evenly;
+      flex-direction: row ;
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+  }
+     
+
+};
